@@ -1,0 +1,20 @@
+.clicky-nav {
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-item {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    margin-right: 1em;
+}
