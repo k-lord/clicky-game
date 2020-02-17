@@ -1,0 +1,26 @@
+.jumbotron {
+    background-color: pink;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 770px) {
+    .display-4 {
+        font-size: 2.75em;
+    }
+    .lead {
+        font-size: 0.90em;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .display-4 {
+        font-size: 2em;
+    }
+    .lead {
+        font-size: 0.75em;
+    }
+  }
