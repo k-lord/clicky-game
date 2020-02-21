@@ -32,6 +32,15 @@ class App extends React.Component {
                 bachelorettes: bachelorettes,
                 unclicked_bachelorette: bachelorettes
             });
+        } else if (current_score === 28) {
+            this.setState({
+                message: "You won! Click to play again!",
+                highest_score: 28,
+                current_score: 0,
+                bachelorettes: bachelorettes,
+                unclicked_bachelorettes: bachelorettes
+            })
+
         } else {
             const newBachelorette = this.state.unclicked_bachelorette.filter(x => x.name !== name);
 
