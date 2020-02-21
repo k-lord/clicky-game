@@ -1,0 +1,12 @@
+.img-tile {
+    width: 170px;
+    height: auto;
+    margin: 5px;
+};
+
+@media only screen and (max-width: 550px) {
+    .img-tile {
+        width: 150px;
+        height: auto;
+    }
+  }
